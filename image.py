@@ -106,7 +106,7 @@ class SelectImageList:
         return (images[select],)
 
 
-@register_node
+# @register_node
 class GetImageSize:
     @classmethod
     def INPUT_TYPES(s):
